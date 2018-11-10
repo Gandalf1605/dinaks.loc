@@ -414,7 +414,7 @@
 </section>
 <!-- END section -->
 
-<section class="cover_1" style="background-image: url('img/banner_3.jpg')">
+<section class="cover_1" style="background-image: url('img/banner_8.jpg')">
     <div class="container">
         <div class="row text-center justify-content-center">
             <div class="col-md-10">
