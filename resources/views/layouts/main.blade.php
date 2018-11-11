@@ -27,23 +27,27 @@
     <div class="top-bar">
         <div class="container">
             <div class="row">
+
                 <div class="col-md-6 col-sm-6 col-5">
                     <ul class="social list-unstyled">
                         <li><a href="#"><span class="fa fa-facebook"></span></a></li>
                         <li><a href="#"><span class="fa fa-twitter"></span></a></li>
                         <li><a href="#"><span class="fa fa-instagram"></span></a></li>
+
                     </ul>
                 </div>
                 <div class="col-md-6 col-sm-6 col-7 text-right">
                     <p class="mb-0">
-                        <a href="#" class="cta-btn" data-toggle="modal" data-target="#modalAppointment">Регистрация на сайте</a></p>
+                        <a href="/login" class="cta-btn">Вход на сайт</a></p>
                 </div>
+
+
             </div>
         </div>
     </div>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
-            <a class="navbar-brand" href="index.html">Динакс<span></span>  </a>
+            <a class="navbar-brand" href="/">Динакс<span></span>  </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -51,22 +55,22 @@
             <div class="collapse navbar-collapse" id="navbarsExample05">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" href="index.html">Главная</a>
+                        <a class="nav-link active" href="/">Главная</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="services.html">Наши возможности</a>
+                        <a class="nav-link" href="services">Наши возможности</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="doctors.html">Персонал</a>
+                        <a class="nav-link" href="doctors">Персонал</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="news.html">Оборудование</a>
+                        <a class="nav-link" href="news">Оборудование</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="about.html">О компании</a>
+                        <a class="nav-link" href="about">О компании</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Контакты</a>
+                        <a class="nav-link" href="contact">Контакты</a>
                     </li>
                 </ul>
             </div>
@@ -283,136 +287,9 @@
 </section>
 <!-- END section -->
 
-<section class="section bg-light">
-    <div class="container">
-        <div class="row justify-content-center mb-5 element-animate">
-            <div class="col-md-8 text-center mb-5">
-                <h2 class="text-uppercase heading border-bottom mb-4">Наши сотрудники</h2>
-                <p class="mb-0 lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi unde impedit, necessitatibus, soluta sit quam minima expedita atque corrupti reiciendis.</p>
-            </div>
-        </div>
-        <div class="row element-animate">
-            <div class="major-caousel js-carousel-1 owl-carousel">
-                <div>
-                    <div class="media d-block media-custom text-center">
-                        <img src="img/doctor_1.jpg" alt="Image Placeholder" class="img-fluid">
-                        <div class="media-body">
-                            <h3 class="mt-0 text-black">Dr. Carl Smith</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                            <p>
-                                <a href="#" class="p-2"><span class="fa fa-facebook"></span></a>
-                                <a href="#" class="p-2"><span class="fa fa-twitter"></span></a>
-                                <a href="#" class="p-2"><span class="fa fa-linkedin"></span></a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <div class="media d-block media-custom text-center">
-                        <img src="img/doctor_2.jpg" alt="Image Placeholder" class="img-fluid">
-                        <div class="media-body">
-                            <h3 class="mt-0 text-black">Dr. Janice Doe</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                            <p>
-                                <a href="#" class="p-2"><span class="fa fa-facebook"></span></a>
-                                <a href="#" class="p-2"><span class="fa fa-twitter"></span></a>
-                                <a href="#" class="p-2"><span class="fa fa-linkedin"></span></a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <div class="media d-block media-custom text-center">
-                        <img src="img/doctor_3.jpg" alt="Image Placeholder" class="img-fluid">
-                        <div class="media-body">
-                            <h3 class="mt-0 text-black">Dr. Jean Doe</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                            <p>
-                                <a href="#" class="p-2"><span class="fa fa-facebook"></span></a>
-                                <a href="#" class="p-2"><span class="fa fa-twitter"></span></a>
-                                <a href="#" class="p-2"><span class="fa fa-linkedin"></span></a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <div class="media d-block media-custom text-center">
-                        <img src="img/doctor_4.jpg" alt="Image Placeholder" class="img-fluid">
-                        <div class="media-body">
-                            <h3 class="mt-0 text-black">Dr. Jessica Doe</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                            <p>
-                                <a href="#" class="p-2"><span class="fa fa-facebook"></span></a>
-                                <a href="#" class="p-2"><span class="fa fa-twitter"></span></a>
-                                <a href="#" class="p-2"><span class="fa fa-linkedin"></span></a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
 
-                <div>
-                    <div class="media d-block media-custom text-center">
-                        <img src="img/doctor_1.jpg" alt="Image Placeholder" class="img-fluid">
-                        <div class="media-body">
-                            <h3 class="mt-0 text-black">Dr. Carl Smith</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                            <p>
-                                <a href="#" class="p-2"><span class="fa fa-facebook"></span></a>
-                                <a href="#" class="p-2"><span class="fa fa-twitter"></span></a>
-                                <a href="#" class="p-2"><span class="fa fa-linkedin"></span></a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <div class="media d-block media-custom text-center">
-                        <img src="img/doctor_2.jpg" alt="Image Placeholder" class="img-fluid">
-                        <div class="media-body">
-                            <h3 class="mt-0 text-black">Dr. Janice Doe</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                            <p>
-                                <a href="#" class="p-2"><span class="fa fa-facebook"></span></a>
-                                <a href="#" class="p-2"><span class="fa fa-twitter"></span></a>
-                                <a href="#" class="p-2"><span class="fa fa-linkedin"></span></a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <div class="media d-block media-custom text-center">
-                        <img src="img/doctor_3.jpg" alt="Image Placeholder" class="img-fluid">
-                        <div class="media-body">
-                            <h3 class="mt-0 text-black">Dr. Jean Doe</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                            <p>
-                                <a href="#" class="p-2"><span class="fa fa-facebook"></span></a>
-                                <a href="#" class="p-2"><span class="fa fa-twitter"></span></a>
-                                <a href="#" class="p-2"><span class="fa fa-linkedin"></span></a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <div class="media d-block media-custom text-center">
-                        <img src="img/doctor_4.jpg" alt="Image Placeholder" class="img-fluid">
-                        <div class="media-body">
-                            <h3 class="mt-0 text-black">Dr. Jessica Doe</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                            <p>
-                                <a href="#" class="p-2"><span class="fa fa-facebook"></span></a>
-                                <a href="#" class="p-2"><span class="fa fa-twitter"></span></a>
-                                <a href="#" class="p-2"><span class="fa fa-linkedin"></span></a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
+@yield('personel')
 
-            </div>
-            <!-- END slider -->
-        </div>
-    </div>
-</section>
-<!-- END section -->
 
 <section class="cover_1" style="background-image: url('img/banner_8.jpg')">
     <div class="container">
@@ -432,135 +309,8 @@
 </section>
 <!-- END section -->
 
-<section class="section bg-light">
-    <div class="container">
-        <div class="row justify-content-center mb-5 element-animate">
-            <div class="col-md-8 text-center mb-5">
-                <h2 class="text-uppercase heading border-bottom mb-4">Поставка оборудования</h2>
-                <p class="mb-0 lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi unde impedit, necessitatibus, soluta sit quam minima expedita atque corrupti reiciendis.</p>
-            </div>
-        </div>
-        <div class="row element-animate">
-            <div class="major-caousel js-carousel-2 owl-carousel">
-                <div>
-                    <div class="media d-block media-custom text-left">
-                        <img src="img/img_thumb_1.jpg" alt="Image Placeholder" class="img-fluid">
-                        <div class="media-body">
-                            <span class="meta-post">December 2, 2017</span>
-                            <h3 class="mt-0 text-black"><a href="#" class="text-black">Lorem ipsum dolor sit amet elit</a></h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                            <p class="clearfix">
-                                <a href="#" class="float-left">Read more</a>
-                                <a href="#" class="float-right meta-chat"><span class="ion-chatbubble"></span> 8</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <div class="media d-block media-custom text-left">
-                        <img src="img/img_thumb_2.jpg" alt="Image Placeholder" class="img-fluid">
-                        <div class="media-body">
-                            <span class="meta-post">December 2, 2017</span>
-                            <h3 class="mt-0 text-black"><a href="#" class="text-black">Lorem ipsum dolor sit amet elit</a></h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                            <p class="clearfix">
-                                <a href="#" class="float-left">Read more</a>
-                                <a href="#" class="float-right meta-chat"><span class="ion-chatbubble"></span> 2</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <div class="media d-block media-custom text-left">
-                        <img src="img/img_thumb_3.jpg" alt="Image Placeholder" class="img-fluid">
-                        <div class="media-body">
-                            <span class="meta-post">December 2, 2017</span>
-                            <h3 class="mt-0 text-black"><a href="#" class="text-black">Lorem ipsum dolor sit amet elit</a></h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                            <p class="clearfix">
-                                <a href="#" class="float-left">Read more</a>
-                                <a href="#" class="float-right meta-chat"><span class="ion-chatbubble"></span> 5</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <div class="media d-block media-custom text-left">
-                        <img src="img/img_thumb_4.jpg" alt="Image Placeholder" class="img-fluid">
-                        <div class="media-body">
-                            <span class="meta-post">December 2, 2017</span>
-                            <h3 class="mt-0 text-black"><a href="#" class="text-black">Lorem ipsum dolor sit amet elit</a></h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                            <p class="clearfix">
-                                <a href="#" class="float-left">Read more</a>
-                                <a href="#" class="float-right meta-chat"><span class="ion-chatbubble"></span> 7</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
+@yield('products')
 
-                <div>
-                    <div class="media d-block media-custom text-left">
-                        <img src="img/img_thumb_1.jpg" alt="Image Placeholder" class="img-fluid">
-                        <div class="media-body">
-                            <span class="meta-post">December 2, 2017</span>
-                            <h3 class="mt-0 text-black"><a href="#" class="text-black">Lorem ipsum dolor sit amet elit</a></h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                            <p class="clearfix">
-                                <a href="#" class="float-left">Read more</a>
-                                <a href="#" class="float-right meta-chat"><span class="ion-chatbubble"></span> 1</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <div class="media d-block media-custom text-left">
-                        <img src="img/img_thumb_2.jpg" alt="Image Placeholder" class="img-fluid">
-                        <div class="media-body">
-                            <span class="meta-post">December 2, 2017</span>
-                            <h3 class="mt-0 text-black"><a href="#" class="text-black">Lorem ipsum dolor sit amet elit</a></h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                            <p class="clearfix">
-                                <a href="#" class="float-left">Read more</a>
-                                <a href="#" class="float-right meta-chat"><span class="ion-chatbubble"></span> 4</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <div class="media d-block media-custom text-left">
-                        <img src="img/img_thumb_3.jpg" alt="Image Placeholder" class="img-fluid">
-                        <div class="media-body">
-                            <span class="meta-post">December 2, 2017</span>
-                            <h3 class="mt-0 text-black"><a href="#" class="text-black">Lorem ipsum dolor sit amet elit</a></h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                            <p class="clearfix">
-                                <a href="#" class="float-left">Read more</a>
-                                <a href="#" class="float-right meta-chat"><span class="ion-chatbubble"></span> 12</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <div class="media d-block media-custom text-left">
-                        <img src="img/img_thumb_4.jpg" alt="Image Placeholder" class="img-fluid">
-                        <div class="media-body">
-                            <span class="meta-post">December 2, 2017</span>
-                            <h3 class="mt-0 text-black"><a href="#" class="text-black">Lorem ipsum dolor sit amet elit</a></h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                            <p class="clearfix">
-                                <a href="#" class="float-left">Read more</a>
-                                <a href="#" class="float-right meta-chat"><span class="ion-chatbubble"></span> 14</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-            <!-- END slider -->
-        </div>
-    </div>
-</section>
 <!-- END section -->
 
 <a href="#" class="cta-link element-animate" data-animate-effect="fadeIn" data-toggle="modal" data-target="#modalAppointment">
@@ -609,8 +359,8 @@
                     <li><h4 class="text-uppercase mb-3 h6 text-white">Email</h4>
                     <li><a href="#">dinaks1@ukr.net</a></li>
                     <h4 class="text-uppercase mb-3 h6 text-white">Телефоны</h4>
-                        <li><a href="#">+380509746888</a></li>
-                        <li><a href="#">+380671417951</a></li>
+                    <li><a href="#">+380509746888</a></li>
+                    <li><a href="#">+380671417951</a></li>
                 </ul>
 
             </div>

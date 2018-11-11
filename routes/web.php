@@ -16,6 +16,13 @@
 //});
 
 Route::get('/', 'MainController@index');
+Route::get('/about', 'AboutController@index');
+Route::get('/contact', 'ContactController@index');
+Route::post('/contact', 'ContactController@index');
+Route::get('/news', 'ProductController@index');
+Route::get('/services', 'ServiceController@index');
+Route::get('/doctors', 'PersonController@index');
+
 
 
 Route::group(['prefix' => 'admin'], function () {
@@ -24,4 +31,4 @@ Route::group(['prefix' => 'admin'], function () {
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+//Route::get('/home', 'HomeController@index')->name('home');
