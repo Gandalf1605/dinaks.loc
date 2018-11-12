@@ -22,6 +22,7 @@ Route::post('/contact', 'ContactController@index');
 Route::get('/news', 'ProductController@index');
 Route::get('/services', 'ServiceController@index');
 Route::get('/doctors', 'PersonController@index');
+Route::get('/translate', 'TranslateController@index');
 
 Route::resource('/single_news', 'SingleController');
 

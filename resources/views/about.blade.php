@@ -6,7 +6,7 @@
             <div class="row justify-content-center mb-5 element-animate">
                 <div class="col-md-8 text-center mb-5">
                     <h2 class="text-uppercase heading border-bottom mb-4">Наши сотрудники</h2>
-                    <p class="mb-0 lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi unde impedit, necessitatibus, soluta sit quam minima expedita atque corrupti reiciendis.</p>
+                    <p class="mb-0 lead">Наши сотрудники - это наша гордость и ключ к успеху</p>
                 </div>
             </div>
             <div class="row element-animate">
@@ -15,7 +15,7 @@
                     @foreach($persons as $person)
                         <div>
                             <div class="media d-block media-custom text-center">
-                                <img src="img/doctor_1.jpg" alt="Image Placeholder" class="img-fluid">
+                                <img src="{{$person->photo}}" alt="Image Placeholder" class="img-fluid">
                                 <div class="media-body">
                                     <h3 class="mt-0 text-black">{{$person->first_name}}<br>{{$person->last_name}}</h3>
                                     <p>{{$person->notice}}</p>

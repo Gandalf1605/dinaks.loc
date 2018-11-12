@@ -36,7 +36,7 @@
                 </div>
                 <div class="col-md-6 col-sm-6 col-7 text-right">
                     <p class="mb-0">
-                        <a href="#" class="cta-btn" data-toggle="modal" data-target="#modalAppointment">Регистрация на сайте</a></p>
+                        <a href="/login" class="cta-btn">Вход на сайт</a></p>
                 </div>
             </div>
         </div>
@@ -103,7 +103,7 @@
                     <div class="media-body">
                         <h3 class="mt-0 text-black">Оборудование для больниц</h3>
 
-                        <p><a href="#" class="btn btn-secondary btn-sm">Больше информации</a></p>
+                        <p><a href="news" class="btn btn-secondary btn-sm">Больше информации</a></p>
                     </div>
                 </div>
             </div>
@@ -113,7 +113,7 @@
                     <div class="media-body">
                         <h3 class="mt-0 text-black">Ремонт медтехники</h3>
 
-                        <p><a href="#" class="btn btn-secondary btn-sm">Больше информации</a></p>
+                        <p><a href="news" class="btn btn-secondary btn-sm">Больше информации</a></p>
                     </div>
                 </div>
             </div>
@@ -123,7 +123,7 @@
                     <div class="media-body">
                         <h3 class="mt-0 text-black">Оборудование для отделений реанимации</h3>
 
-                        <p><a href="#" class="btn btn-secondary btn-sm">Больше информации</a></p>
+                        <p><a href="news" class="btn btn-secondary btn-sm">Больше информации</a></p>
                     </div>
                 </div>
             </div>
@@ -133,7 +133,7 @@
                     <div class="media-body">
                         <h3 class="mt-0 text-black">Медицинская одежда</h3>
 
-                        <p><a href="#" class="btn btn-secondary btn-sm">Больше информации</a></p>
+                        <p><a href="news" class="btn btn-secondary btn-sm">Больше информации</a></p>
                     </div>
                 </div>
             </div>
@@ -146,7 +146,7 @@
                     <div class="media-body">
                         <h3 class="mt-0 text-black">Диагностическое оборудование</h3>
 
-                        <p><a href="#" class="btn btn-secondary btn-sm">Больше информации</a></p>
+                        <p><a href="news" class="btn btn-secondary btn-sm">Больше информации</a></p>
                     </div>
                 </div>
             </div>
@@ -156,7 +156,7 @@
                     <div class="media-body">
                         <h3 class="mt-0 text-black">Кардиографы</h3>
 
-                        <p><a href="#" class="btn btn-secondary btn-sm">Больше информации</a></p>
+                        <p><a href="news" class="btn btn-secondary btn-sm">Больше информации</a></p>
                     </div>
                 </div>
             </div>
@@ -166,7 +166,7 @@
                     <div class="media-body">
                         <h3 class="mt-0 text-black">Оборудование для отделений сердечно-сосудистой хирургии</h3>
 
-                        <p><a href="#" class="btn btn-secondary btn-sm">Больше информации</a></p>
+                        <p><a href="news" class="btn btn-secondary btn-sm">Больше информации</a></p>
                     </div>
                 </div>
             </div>
@@ -176,7 +176,7 @@
                     <div class="media-body">
                         <h3 class="mt-0 text-black">Тест-системы</h3>
 
-                        <p><a href="#" class="btn btn-secondary btn-sm">Больше информации</a></p>
+                        <p><a href="news" class="btn btn-secondary btn-sm">Больше информации</a></p>
                     </div>
                 </div>
             </div>
@@ -189,7 +189,7 @@
                     <div class="media-body">
                         <h3 class="mt-0 text-black">Слуховые аппараты</h3>
 
-                        <p><a href="#" class="btn btn-secondary btn-sm">Больше информации</a></p>
+                        <p><a href="news" class="btn btn-secondary btn-sm">Больше информации</a></p>
                     </div>
                 </div>
             </div>
@@ -199,7 +199,7 @@
                     <div class="media-body">
                         <h3 class="mt-0 text-black">Диагностическое оборудование</h3>
 
-                        <p><a href="#" class="btn btn-secondary btn-sm">Больше информации</a></p>
+                        <p><a href="news" class="btn btn-secondary btn-sm">Больше информации</a></p>
                     </div>
                 </div>
             </div>
@@ -209,7 +209,7 @@
                     <div class="media-body">
                         <h3 class="mt-0 text-black">Перевод медицинских текстов</h3>
 
-                        <p><a href="#" class="btn btn-secondary btn-sm">Больше информации</a></p>
+                        <p><a href="news" class="btn btn-secondary btn-sm">Больше информации</a></p>
                     </div>
                 </div>
             </div>
@@ -219,7 +219,7 @@
                     <div class="media-body">
                         <h3 class="mt-0 text-black">Микроскопы</h3>
 
-                        <p><a href="#" class="btn btn-secondary btn-sm">Больше информации</a></p>
+                        <p><a href="news" class="btn btn-secondary btn-sm">Больше информации</a></p>
                     </div>
                 </div>
             </div>
@@ -337,7 +337,7 @@
             <div class="col-md-3 mb-5">
                 <h3>О компании</h3>
                 <ul class="footer-link list-unstyled">
-                    <li><a href="#">Общая информация</a></li>
+                    <li><a href="about">Общая информация</a></li>
                     <li><a href="#">Вакансии</a></li>
                     <li><a href="#"></a></li>
                     <li><a href="#"></a></li>

@@ -42,7 +42,7 @@
                 </div>
                 <div class="col-md-6 col-sm-6 col-7 text-right">
                     <p class="mb-0">
-                        <a href="#" class="cta-btn" data-toggle="modal" data-target="#modalAppointment">Регистрация на сайте</a></p>
+                        <a href="/login" class="cta-btn">Вход на сайт</a></p>
                 </div>
             </div>
         </div>
@@ -89,7 +89,7 @@
             <div class="row slider-text align-items-center">
                 <div class="col-md-7 col-sm-12 element-animate">
                     <h1>О компании</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi unde impedit, necessitatibus, soluta sit quam minima expedita atque corrupti reiciendis.</p>
+                    <p>Главным приоритетом в работе компании всегда было качество оказываемых услуг, своевременное выполнение всех своих обязательств перед клиентами</p>
                 </div>
             </div>
         </div>
@@ -274,9 +274,9 @@
             <div class="col-md-3 mb-5">
                 <h3>Услуги</h3>
                 <ul class="footer-link list-unstyled">
-                    <li><a href="#">Поставка оборудования</a></li>
+                    <li><a href="news">Поставка оборудования</a></li>
                     <li><a href="#">Ремонт медтехники</a></li>
-                    <li><a href="#">Перевод медицинских текстов</a></li>
+                    <li><a href="translate">Перевод медицинских текстов</a></li>
 
                 </ul>
             </div>
@@ -290,7 +290,7 @@
             <div class="col-md-3 mb-5">
                 <h3>О компании</h3>
                 <ul class="footer-link list-unstyled">
-                    <li><a href="#">Общая информация</a></li>
+                    <li><a href="about">Общая информация</a></li>
                     <li><a href="#">Вакансии</a></li>
                     <li><a href="#"></a></li>
                     <li><a href="#"></a></li>

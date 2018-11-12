@@ -327,9 +327,9 @@
             <div class="col-md-3 mb-5">
                 <h3>Услуги</h3>
                 <ul class="footer-link list-unstyled">
-                    <li><a href="#">Поставка оборудования</a></li>
+                    <li><a href="news">Поставка оборудования</a></li>
                     <li><a href="#">Ремонт медтехники</a></li>
-                    <li><a href="#">Перевод медицинских текстов</a></li>
+                    <li><a href="translate">Перевод медицинских текстов</a></li>
 
                 </ul>
             </div>
@@ -343,7 +343,7 @@
             <div class="col-md-3 mb-5">
                 <h3>О компании</h3>
                 <ul class="footer-link list-unstyled">
-                    <li><a href="#">Общая информация</a></li>
+                    <li><a href="about">Общая информация</a></li>
                     <li><a href="#">Вакансии</a></li>
                     <li><a href="#"></a></li>
                     <li><a href="#"></a></li>

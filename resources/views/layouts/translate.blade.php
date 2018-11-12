@@ -7,19 +7,19 @@
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300, 400, 700" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
-    <link rel="stylesheet" href="css/jquery.timepicker.css">
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/animate.css">
+    <link rel="stylesheet" href="/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="/css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="/css/jquery.timepicker.css">
 
-    <link rel="stylesheet" href="fonts/ionicons/css/ionicons.min.css">
-    <link rel="stylesheet" href="fonts/fontawesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+    <link rel="stylesheet" href="/fonts/ionicons/css/ionicons.min.css">
+    <link rel="stylesheet" href="/fonts/fontawesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/fonts/flaticon/font/flaticon.css">
 
 
     <!-- Theme Style -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
 
@@ -54,19 +54,19 @@
                         <a class="nav-link" href="/">Главная</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="services">Наши возможности</a>
+                        <a class="nav-link active" href="services">Наши возможности</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="doctors">Персонал</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="news">Оборудование</a>
+                        <a class="nav-link" href="/news">Оборудование</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="about">О компании</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="contact">Контакты</a>
+                        <a class="nav-link" href="contact">Контакты</a>
                     </li>
                 </ul>
             </div>
@@ -75,14 +75,15 @@
 </header>
 <!-- END header -->
 
+
 <section class="home-slider inner-page owl-carousel">
-    <div class="slider-item" style="background-image: url('img/slider-2.jpg');">
+    <div class="slider-item" style="background-image: url('/img/slider-2.jpg');">
 
         <div class="container">
             <div class="row slider-text align-items-center">
                 <div class="col-md-7 col-sm-12 element-animate">
-                    <h1>Свяжитесь с нами</h1>
-                    <p>Мы с удовольствием ответим на любые ваши вопросы</p>
+                    <h1>Перевод медицинских текстов</h1>
+                    <p>Наша компания выполняет профессиональный перевод медицинских и технических текстов, патентов, документации к оборудованию</p>
                 </div>
             </div>
         </div>
@@ -92,61 +93,7 @@
 </section>
 <!-- END slider -->
 
-
-<section class="section">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 mb-5 element-animate">
-                <form action="/contact" method="post">
-                    @csrf
-                    <div class="row">
-                        <div class="col-md-6 form-group">
-                            <label for="fname">Имя</label>
-                            <input type="text" name="surname" class="form-control form-control-lg" id="fname" required>
-                        </div>
-                        <div class="col-md-6 form-group">
-                            <label for="lname">Фамилия</label>
-                            <input type="text" name="name" class="form-control form-control-lg" id="lname" required>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12 form-group">
-                            <label for="email">Email</label>
-                            <input type="email" name='email' id="email" class="form-control form-control-lg" required>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12 form-group">
-                            <label for="message">Введите сообщение</label>
-                            <textarea name="message" id="message" class="form-control form-control-lg" cols="30" rows="8" required></textarea>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6 form-group">
-                            <input type="submit" value="Отправить" class="btn btn-primary btn-lg btn-block">
-                        </div>
-
-                    </div>
-                </form>
-            </div>
-            <div class="col-md-1"></div>
-            <div class="col-md-5 element-animate">
-
-                <h5 class="text-uppercase mb-3">Адрес:</h5>
-                <p class="mb-5">Украина, Донецкая обл.<br> г. Краматорск <br></p>
-
-                <h5 class="text-uppercase mb-3">Email:</h5>
-                <p class="mb-5"><a href="mailto:dinaks1@ukr.net">dinaks1@ukr.net</a> <br>
-
-                <h5 class="text-uppercase mb-3">Телефоны:</h5>
-                <p class="mb-5">Моб: (+38) 050 974 68 88 <br> Моб: (+38) 067 141 79 51 <br> Факс: (+38) 0626 48 71 37</p>
-
-
-            </div>
-        </div>
-    </div>
-</section>
-
+@yield('translate')
 
 
 <a href="#" class="cta-link element-animate" data-animate-effect="fadeIn" data-toggle="modal" data-target="#modalAppointment">
@@ -271,13 +218,13 @@
     </div>
 </div>
 
-<script src="js/jquery-3.2.1.min.js"></script>
-<script src="js/popper.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/owl.carousel.min.js"></script>
-<script src="js/bootstrap-datepicker.js"></script>
-<script src="js/jquery.timepicker.min.js"></script>
-<script src="js/jquery.waypoints.min.js"></script>
-<script src="js/main.js"></script>
+<script src="/js/jquery-3.2.1.min.js"></script>
+<script src="/js/popper.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/owl.carousel.min.js"></script>
+<script src="/js/bootstrap-datepicker.js"></script>
+<script src="/js/jquery.timepicker.min.js"></script>
+<script src="/js/jquery.waypoints.min.js"></script>
+<script src="/js/main.js"></script>
 </body>
 </html>

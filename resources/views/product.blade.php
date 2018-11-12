@@ -11,9 +11,9 @@
 
                 <div class="col-md-4 element-animate">
                     <div class="media d-block media-custom text-left">
-                        <img src="img/img_thumb_1.jpg" alt="Image Placeholder" class="img-fluid">
+                        <img src="{{$product->product_photo}}" alt="Image Placeholder" class="img-fluid">
                         <div class="media-body">
-                            <span class="meta-post">December 2, 2017</span>
+                            <span class="meta-post">{{$product->updated_at}}</span>
                             <h3 class="mt-0 text-black"><a href="/single_news/{{$product->id}}" class="text-black">{{$product->product_name}}</a></h3>
                             <p>{{$product->product_category}}</p>
                             <p class="clearfix">
